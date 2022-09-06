@@ -63,3 +63,8 @@ services:
       container_name: jenkins
       ports:
          - "8080:8080"
+    
+    sonarqube:
+       image: sonarqube:latest
+       ports:
+          - "6000:6000"
