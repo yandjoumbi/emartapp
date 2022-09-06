@@ -42,13 +42,13 @@ services:
         depends_on:
             [client]
 
-    # emongo:
-    #    image: mongo:4
-    #    container_name: emongo
-    #    environment:
-    #      - MONGO_INITDB_DATABASE=epoc
-    #    ports:
-    #      - "27017:27017"
+    emongo:
+       image: mongo:4
+       container_name: emongo
+       environment:
+         - MONGO_INITDB_DATABASE=epoc
+       ports:
+         - "27017:27017"
     emartdb:
       image: mysql:5.7
       container_name: emartdb
