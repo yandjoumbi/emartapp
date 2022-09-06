@@ -64,7 +64,3 @@ services:
       ports:
          - "8080:8080"
     
-    sonarqube:
-       image: sonarqube:latest
-       ports:
-          - "6000:6000"
