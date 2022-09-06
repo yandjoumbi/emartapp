@@ -18,7 +18,7 @@ services:
         depends_on:
             - nginx
         depends_on:
-            [emartdb]
+            [emongo]
 
     webapi:
         build:
