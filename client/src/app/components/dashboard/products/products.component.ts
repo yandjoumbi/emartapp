@@ -25,7 +25,7 @@ export class ProductsComponent implements OnInit, OnChanges {
   display: string = "none";
   modalHeader: string = "";
   modalBody: string = "";
-  string
+  string vvvvv
 
   constructor(
     private productService: ProductService,
